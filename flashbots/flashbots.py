@@ -5,7 +5,7 @@ from typing import Any, Callable, Dict, List, Optional, Union
 
 import rlp
 from eth_account import Account
-from eth_account._utils.legacy_transactions import (
+from eth_account._utils.legacy_transactions import ( 
     Transaction,
     encode_transaction,
     serializable_unsigned_transaction_from_dict,
