@@ -4,7 +4,7 @@ authors = [
     "Nikolas Papaioannou <n0k0@hacky.software>",
     "Brock Smedley <brock@flashbots.net>",
 ]
-description = ""
+description = "" 
 name = "flashbots"
 readme = "README.md"
 version = "2.0.0"
