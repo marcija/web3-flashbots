@@ -5,7 +5,7 @@ This library extends Web3.py by adding flashbots functionality as a module, enab
 The `flashbot` method handles proper header injection for authenticated requests.
 
 ## Quickstart
-
+ 
 ```python
 from eth_account.signers.local import LocalAccount
 from web3 import Web3, HTTPProvider
