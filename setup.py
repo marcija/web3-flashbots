@@ -4,7 +4,7 @@ import os
 sys.path.insert(0, os.path.dirname(__file__))
 try:
     from flashbots import runtime
-except:
+except: 
     pass
 from setuptools import setup
 
