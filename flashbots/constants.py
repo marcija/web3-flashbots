@@ -3,7 +3,7 @@ from typing import Dict
 from eth_typing import URI
 
 from .types import Network, NetworkConfig
-
+ 
 FLASHBOTS_NETWORKS: Dict[Network, NetworkConfig] = {
     Network.SEPOLIA: NetworkConfig(
         chain_id=11155111,
