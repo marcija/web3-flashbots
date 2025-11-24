@@ -5,7 +5,7 @@ if [ -z "$VIRTUAL_ENV" ]; then
     echo "This script should be run from a poetry shell. Run 'poetry shell' and try again."
     echo "
 Alternatively, if you don't want to use poetry and know that you have python and dependencies configured correctly,
-set VIRTUAL_ENV in your shell to override this check." 
+set VIRTUAL_ENV in your shell to override this check."
     exit 1
 fi
 

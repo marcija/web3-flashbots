@@ -9,7 +9,7 @@ from web3 import HTTPProvider, Web3
 from web3._utils.request import make_post_request
 from web3.types import RPCEndpoint, RPCResponse
 
- 
+
 def get_default_endpoint() -> URI:
     return URI(
         os.environ.get("FLASHBOTS_HTTP_PROVIDER_URI", "https://relay.flashbots.net")

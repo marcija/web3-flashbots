@@ -1,7 +1,7 @@
 """
 Minimal viable example of flashbots usage with dynamic fee transactions.
 Sends a bundle of two transactions which transfer some ETH into a random account.
- 
+
 Environment Variables:
 - ETH_SENDER_KEY: Private key of account which will send the ETH.
 - ETH_SIGNER_KEY: Private key of account which will sign the bundle.
