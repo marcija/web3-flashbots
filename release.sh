@@ -11,7 +11,7 @@ fi
 
 # ensure twine and wheel are installed
 echo "Checking build requirements..."
-pip install twine wheel 1>/dev/null
+pip install twine wheel 1>/dev/null 
 
 # build the package
 python setup.py sdist bdist_wheel
